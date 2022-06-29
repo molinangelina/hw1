@@ -1,0 +1,71 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.overlay {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+}
+.overlay img{
+    height: 100%; 
+    width: 100%; 
+}
+nav{
+    background-color: black;
+    padding: 10px 0px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-right: 35%;
+}
+#begin{
+    color: white;
+    flex-grow: 4;
+    text-align: left;
+    font-size: larger;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 15px;
+}
+.date{
+    background-color: rgb(174, 170, 170);
+    width: 600px;
+    border-style: solid;
+    padding: 2px;
+    margin: auto;
+
+}
+.img{
+    width: 150px;
+    height: 120px;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+    color: white;
+    border: 0.5px solid rgb(66, 66, 66);
+    background-color: rgb(253, 186, 63);
+    margin-left: 520px;
+    margin-top: -200px;
+}
+.photo{
+    display: flex;
+    position: absolute;
+    margin-left: 400px;
+    width: 250px;
+}
+.time{
+    text-align: center;
+    padding-left: -20px;
+    padding-top: -5px;
+}
